@@ -1,13 +1,13 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
-import { AndreeaButton } from "./Button";
+import { FilterButton } from "./Button";
 
 export const AndreeaButtonFirstExample = () => {
-  return <AndreeaButton></AndreeaButton>;
+  return <FilterButton></FilterButton>;
 };
 
 export const AndreeaButtonSecondExample = () => {
-  return <AndreeaButton></AndreeaButton>;
+  return <FilterButton></FilterButton>;
 };
 
 export default {
