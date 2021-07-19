@@ -9,7 +9,7 @@ export const VehicleInfo = () => {
         width="42"
         height="42"
       />
-      BE 2033 12
+      <b>BE 2033 12</b>
       <p>Batery percentage:</p>
       <p>Location:</p>
       <p>Car Type:</p>

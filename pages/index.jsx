@@ -13,6 +13,11 @@ const index = () => {
       <VehicleInfo></VehicleInfo>
       <VehicleInfo></VehicleInfo>
       <VehicleInfo></VehicleInfo>
+      <VehicleInfo></VehicleInfo>
+      <VehicleInfo></VehicleInfo>
+      <VehicleInfo></VehicleInfo>
+      <VehicleInfo></VehicleInfo>
+      <VehicleInfo></VehicleInfo>
 
       <div class="Vehicle2">Vehicle 2</div>
       <div class="Vehicle3">Vehicle 3</div>
