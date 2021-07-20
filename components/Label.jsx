@@ -1,22 +1,19 @@
-//import Class from "./label.module.css";
-
 export const LabelInput = () => {
   return (
-    <label class="FirstLabel" className={Class.label} id="filter-label">
+    <label className="FirstLabel" id="filter-label">
       <div>
-        <div class="Fuel">Fuel</div>
-        <div class="Description">Filter cars by Batery Percentage</div>
+        <div className="Fuel">Fuel</div>
+        <div className="Description">Filter cars by Batery Percentage</div>
       </div>
-      <div class="InputCheckBox">
-        <span class="Input">
+      <div className="InputCheckBox">
+        <span className="Input">
           <input
             id="filterItem--checkbox-fuel_levels"
             name="batery levels"
-            class="bateryPercentage"
+            className="bateryPercentage"
             type="checkbox"
-          >
-            <span class="check" data-checkbox="true"></span>
-          </input>
+          />
+          <span className="check" data-checkbox="true"></span>
         </span>
       </div>
     </label>
