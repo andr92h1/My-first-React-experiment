@@ -1,9 +1,10 @@
 import React from "react";
 
 import { FilterButton } from "../components/Button";
+import { LabelInput } from "../components/Label";
 import { VehicleInfo } from "../components/Vehicle";
 
-const index = () => {
+export const Index = () => {
   return (
     <ul class="VehicleList">
       <h1>Vehicles</h1>
@@ -38,7 +39,10 @@ const index = () => {
       <div class="Vehicle18">Vehicle 18</div>
       <div class="Vehicle19">Vehicle 19</div>
       <div class="Vehicle20">Vehicle 20</div>
+
       <FilterButton></FilterButton>
+
+      <LabelInput></LabelInput>
     </ul>
   );
 };
