@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 
-import { LabelInput } from "./Label";
+import { Filter } from "./Label";
 
 export const AndreeaLabel = () => {
-  return <LabelInput></LabelInput>;
+  return <Filter />;
 };
 
 export default {

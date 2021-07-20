@@ -1,21 +1,12 @@
-export const LabelInput = () => {
+export const Filter = () => {
   return (
-    <label className="FirstLabel" id="filter-label">
+    <div>
       <div>
-        <div className="Fuel">Fuel</div>
-        <div className="Description">Filter cars by Batery Percentage</div>
+        <input type="number" /> Fuel min
       </div>
-      <div className="InputCheckBox">
-        <span className="Input">
-          <input
-            id="filterItem--checkbox-fuel_levels"
-            name="batery levels"
-            className="bateryPercentage"
-            type="checkbox"
-          />
-          <span className="check" data-checkbox="true"></span>
-        </span>
+      <div>
+        <input type="number" /> Fuel max
       </div>
-    </label>
+    </div>
   );
 };
